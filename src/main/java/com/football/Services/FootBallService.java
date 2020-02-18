@@ -104,8 +104,6 @@ public class FootBallService {
         }
         
     }
-
-
     public ResponseEntity<Country[]> defaultResponseEntityforgetAllCountries() {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new Country[0]);
     }
